@@ -16,8 +16,8 @@ function TaskForm({ onAdd }) {
     };
 
     onAdd(newTask);
-    setText(""); // reset input
-    setPriority("low"); // reset priority
+    setText(""); 
+    setPriority("low");
   };
 
   return (
